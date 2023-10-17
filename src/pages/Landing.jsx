@@ -16,7 +16,11 @@ const Landing = () => {
   return ( 
     <main  >
       <div className='md:flex flex-row-reverse md:overflow-x-hidden'>
-        <div className='bg-image p-[12em] bg-center bg-cover md:p-[20em] mt-16 md:mt-0 md:basis-[40%]'></div>
+        <div 
+           style={{
+            backgroundImage: `url(/src/assets/Hero\ Image.jpg))`,
+          }}
+          className='bg-image p-[12em] bg-center bg-cover md:p-[20em] mt-16 md:mt-0 md:basis-[40%]'></div>
         <section className='px-4 md:basis-[60%]'>
           <div className='flex justify-between py-4 px-4 md:px-16 absolute top-0'>
             <a href="#">
