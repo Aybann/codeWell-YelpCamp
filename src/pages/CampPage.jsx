@@ -53,7 +53,7 @@ const CampPage = () => {
                 {
                   campground.comments && campground.comments.map((com, index) => (
                     <div key={index} className="border-b border-slate-200 py-4">
-                      <div className="flex justify-between items-center text-black mb-4"> 
+                      <div className="flex flex-wrap  justify-between items-center text-black mb-4"> 
                         <span className="font-bold text-3xl">{com.author}</span>
                         <span className="text-sm text-gray-400"> 
                           { com.timestamp }
