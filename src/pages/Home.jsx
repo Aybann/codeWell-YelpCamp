@@ -43,7 +43,7 @@ const Home = () => {
         <div >
           <h1 className="text-4xl font-bold mb-4">Welcome to YelpCamp!</h1>
           <p className="sm:w-[43ch] text-gray-500">View our hand-picked campgrounds from all over the world, or add your own.</p>
-          <form onSubmit={handleFilteredItems} className="flex gap-2 my-6">
+          <form onSubmit={handleFilteredItems} className="flex flex-wrap gap-2 my-6">
             <div className="flex gap-2 bg-white w-fit p-4 rounded-md border border-slate-300">
               <img src={searchIcon} alt="" />
               <input ref={query} type="search" placeholder='Search for camps' className=" rounded-md bg-transparent focus:outline-none"/>
